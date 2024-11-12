@@ -1,0 +1,60 @@
+@font-face {
+    font-family: RockFont;
+    src: url("Funkrocker.otf");
+  }
+  
+  .masthead {
+    background: rgb(230, 221, 221);
+    height: 5em;
+  }
+  
+  .centeredText {
+    text-align: center;
+  }
+  
+  .site-title {
+    color: white;
+    font-family: RockFont;
+    font-size: 80px;
+    font-weight: bolder;
+  }
+  
+  h4 {
+    font-family: RockFont;
+  }
+  
+  .card {
+    background-color: white;
+    border: 1px solid rgb(204, 204, 204);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0.2);
+    margin: 20px;
+    width: 250px;
+  }
+  
+  .card img {
+    width: 150px;
+    height: 150px;
+    padding-left: 45px;
+    padding-top: 10px;
+  }
+  
+  .card-content {
+    padding: 20px;
+    text-align: justify;
+  }
+  
+  .card-content h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .card-content p {
+    color: #555;
+  }
+  
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
